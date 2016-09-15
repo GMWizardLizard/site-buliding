@@ -1,50 +1,208 @@
-<!DOCTYPE html>
 <html>
+    
+<head>
+    
+<link rel="stylesheet" type="text/css" href="main.css">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Site-buliding : building websites">
+<title>Oryon Hill</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-    <title>Site-buliding</title>
-  </head>
+li {
+    float: left;
+}
 
-  <body>
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/GMWizardLizard/site-buliding">View on GitHub</a>
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
 
-          <h1 id="project_title">Site-buliding</h1>
-          <h2 id="project_tagline">building websites</h2>
+li.dropdown {
+    display: inline-block;
+}
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/GMWizardLizard/site-buliding/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/GMWizardLizard/site-buliding/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+    <div id="header">
+        <iframe src="header.html"
+         allowtransparency="true"
+         WIDTH=100%
+         HEIGHT=100%
+         MARGINWIDTH="0"
+         MARGINHEIGHT="0"
+         
+         FRAMEBORDER="0"
+         SCROLLING="NO"
+         
+         STYLE="border-width:0px; border-colour:#445599; border-style:solid;">
+         
+        </iframe>
+      
+      
+      
     </div>
+  
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hello World</h1>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Site-buliding maintained by <a href="https://github.com/GMWizardLizard">GMWizardLizard</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+
 
     
 
-  </body>
-</html>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="photography.html">Photography</a></li>
+  <li><a href="login.html">Log In Semi Broken</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Cool Links</a>
+    <div class="dropdown-content">
+      <a href="https://www.youtube.com">Youtube</a>
+      <a href="https://www.google.com">Google</a>
+      <a href="http://valourtech.atspace.cc/">Valour Tech</a>
+    </div>
+      <li class="dropdown">
+    <a href="#" class="dropbtn">Meme Of The Day</a>
+    <div class="dropdown">
+  <img src="" alt="" width="0" height="0">
+  <div class="dropdown-content">
+    <img src="http://i258.photobucket.com/albums/hh253/jimifunguzz/doge-so-gif.gif" alt="lit" width="900" height="600">
+    <div class="desc"></div>
+  </div>
+</div>
+  </li>
+
+<li class="dropdown">
+    <a href="#" class="dropbtn">Meme Of The Day X2 </a>
+    <div class="dropdown">
+  <img src="" alt="" width="0" height="0">
+  <div class="dropdown-content">
+    <img src="https://m.popkey.co/b8b56f/OXo8L_s-200x150.gif" alt="lit" width="900" height="600">
+    <div class="desc"></div>
+  </div>
+</div>
+  </li>
+</ul>
+
+
+
+  
+
+
+
+
+ <div id="leftmenu">
+      <iframe src="leftmenu.html"
+        allowtransparency="true"
+         WIDTH="100%"
+         HEIGHT="100%"
+         MARGINWIDTH="0"
+         MARGINHEIGHT="0"
+         
+         FRAMEBORDER="N0"
+         SCROLLING="NO"
+         
+         STYLE="border-width:0px; border-colour:#445589; border-style:solid;">
+      
+      
+      </iframe>
+     
+     
+     
+<center>     
+   </div>
+
+    
+     <div>
+      <div id="main">
+          <iframe src="main.html"
+             allowtransparency="true"
+         WIDTH=100%
+         HEIGHT=100%
+         MARGINWIDTH="0"
+         MARGINHEIGHT="0"
+         
+         FRAMEBORDER="0"
+         SCROLLING="NO"
+         
+         STYLE="border-width:0px; border-colour:#445599; border-style:solid;"> 
+              
+          </iframe>
+         
+      </div>
+      
+        
+  </div>
+  
+  
+  
+  
+</div>
+
+</center>
+
+  
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html> 
